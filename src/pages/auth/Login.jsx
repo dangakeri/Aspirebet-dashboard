@@ -174,7 +174,7 @@ function Login() {
                           backgroundColor: "#00ff7f",
                           marginTop: "12px",
                         }}
-                        className="inline-flex bg-[#00ff7f] items-center outline-none justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200  border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700"
+                        className="inline-flex bg-[#00ff7f] items-center outline-none justify-center w-full px-4 py-4 text-base font-semibold text-black transition-all duration-200  border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700"
                       >
                         {isLoading ? <LoaderIcon /> : "Log in"}
                       </button>
